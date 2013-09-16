@@ -1,0 +1,149 @@
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: orange;
+}a:active {
+	color: red;
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	font-family: 'Sansita One', cursive;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+/*HEADER
+*/
+.body-header{
+	width: 100%;
+	height: 150px;
+	float: left;
+	margin-bottom: 10px;
+	background: url(http://placekitten.com/g/960/150);
+}
+.body-header h1{
+	color: #fff;
+	margin: 10px 0 10px 5px;
+	font-size: 32px;
+	float: left;
+	text-transform: uppercase;
+}
+
+.body-header ul {
+	margin-top: 15px;
+}
+.body-header li {
+	float: right;
+}
+
+.body-header a{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 15px;
+}
+.body-header a:hover{
+	color: orange;
+	border-bottom: 5px solid orange;
+}
+
+/*ARTICLES
+*/
+.body-content{
+	width:750px;
+	height: auto;
+	float: left;
+}
+article{
+	padding-left:5px;
+	margin-bottom: 25px;
+}
+.article-title{
+	width:745px;
+	height: auto;
+	
+	margin-bottom: 10px;
+}
+
+.article-title h2{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.article-title p{
+	text-transform: lowercase;
+	font-size: 16px;
+	font-style: italic;
+}
+.date{
+	font-size: 13px;
+	float: right;
+	font-style: italic;
+}
+.date:before {
+  content: "~";
+}
+article blockquote{
+	width:75%;
+	margin: 15px auto;
+	border-left: 5px gray solid;
+	padding-left: 5px;
+}
+blockquote footer{
+	text-align: right;
+}
+
+/*SIDEBAR
+*/
+h3{
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.sidebar{
+	float: left;
+	width:200px;
+	min-height: auto;
+	padding-left: 10px
+}
+.sidebar li{
+	width: auto;
+	height: 50px;
+	margin-bottom: 5px;
+}
+.sidebar img{
+	float: left;
+	margin-right: 5px;
+}
+.sidebar p{
+
+	float: left;
+	width: 145px;
+
+}
+/*FOOTER
+*/
+
+.footer{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border-top: 1px black solid;
+}
+.footer p {
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
